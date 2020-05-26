@@ -14,7 +14,7 @@ export class InicioPage implements OnInit {
       redirectTo: '/action-sheet'
     },
     {
-      icon: 'appstore',
+      icon: 'logo-apple-appstore',
       name: 'Alert',
       redirectTo: '/alert'
     }
