@@ -1,0 +1,24 @@
+<app-header titulo="grid - rows"></app-header>
+
+<ion-content class="ion-padding full-screen">
+
+  <ion-grid fixed>
+    <!-- <ion-row>
+      <ion-col *ngFor="let item of [1,1,1,1,1,1,1,11,1,1,1,11,1,1,1,1]; let index = index">Hola item{{  index + 1 }}</ion-col>
+    </ion-row> -->
+
+
+    <ion-row>
+      <ion-col *ngFor="let item of [1,1,1,1,1,1,1,11,1,1,1,11]; let index = index" size-lg="3" size-md="4" size-xs="12">
+        <ion-card>
+          <img src="/assets/shapes.svg" alt="Imagen">
+          <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+          <ion-card-title>Card Title</ion-card-title>
+          <ion-card-content>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente illo, quis delectus voluptatum commodi quaerat! Eum unde itaque earum veniam. Aut atque ipsam, iste voluptatem ratione doloribus necessitatibus voluptatibus quas.</ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+</ion-content>
