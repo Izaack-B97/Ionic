@@ -63,5 +63,10 @@
       "icon": "reload-outline",
       "name": "Loading",
       "redirectTo": "/loading"
+    },
+    {
+      "icon": "tablet-portrait-outline",
+      "name": "Pop-over",
+      "redirectTo": "/popover"
     }
   ]
