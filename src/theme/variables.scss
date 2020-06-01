@@ -106,6 +106,14 @@
   --ion-color-github-contrast-rgb: 255,255,255;
   --ion-color-github-shade: #000000;
   --ion-color-github-tint: #1a1a1a;
+
+  /** White **/
+  --ion-color-white: #ffffff;
+  --ion-color-white-rgb: 255,255,255;
+  --ion-color-white-contrast: #000000;
+  --ion-color-white-contrast-rgb: 0,0,0;
+  --ion-color-white-shade: #e0e0e0;
+  --ion-color-white-tint: #ffffff;
 }
 
 .ion-color-youtube {
@@ -142,6 +150,15 @@
   --ion-color-contrast-rgb: var(--ion-color-github-contrast-rgb) !important;
   --ion-color-shade: var(--ion-color-github-shade) !important;
   --ion-color-tint: var(--ion-color-github-tint) !important;
+}
+
+.ion-color-white {
+  --ion-color-base: var(--ion-color-white) !important;
+  --ion-color-base-rgb: var(--ion-color-white-rgb) !important;
+  --ion-color-contrast: var(--ion-color-white-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-white-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-white-shade) !important;
+  --ion-color-tint: var(--ion-color-white-tint) !important;
 }
 
 @media (prefers-color-scheme: dark) {
