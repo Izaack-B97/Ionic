@@ -68,5 +68,10 @@
       "icon": "tablet-portrait-outline",
       "name": "Pop-over",
       "redirectTo": "/popover"
+    },
+    {
+      "icon": "code-working",
+      "name": "Progress Bar y Range",
+      "redirectTo": "/progress-bar"
     }
   ]
