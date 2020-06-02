@@ -15,7 +15,7 @@ import { PipesModule } from '../../pipes/pipes.module';
     FormsModule,
     IonicModule,
     SearchbarPageRoutingModule,
-    PipesModule
+    PipesModule,
   ],
   declarations: [SearchbarPage]
 })

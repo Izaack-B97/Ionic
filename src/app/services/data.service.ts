@@ -20,4 +20,8 @@ export class DataService {
   getAlbums(){
     return this.http.get<any[]>('/assets/data/albums.json');
   }
+
+  getSuperHeroes(){
+    return this.http.get<any[]>('/assets/data/superheroes.json');
+  }
 }
