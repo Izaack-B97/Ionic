@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../services/data.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-searchbar',
@@ -7,18 +8,22 @@ import { DataService } from '../../services/data.service';
   styleUrls: ['./searchbar.page.scss'],
 })
 export class SearchbarPage implements OnInit {
-  albums: any[] = [];
+  albums: any[];
+  textoBuscar = '';
 
   constructor(private dataServices: DataService) { }
 
   ngOnInit() {
-    this.dataServices.getUsers()
-      .subscribe(users => {
-        console.log(users);
+    this.dataServices.getAlbums()
+      .subscribe(albums => {
+        // console.log(albums);
+        this.albums = albums;
+        console.log(this.albums);
       });
   }
 
   buscar(event){
-    console.log(event);
+    // console.log(event);
+    this.textoBuscar = event.detail.value;
   }
 }

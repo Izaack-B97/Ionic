@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { SearchbarPageRoutingModule } from './searchbar-routing.module';
 
 import { SearchbarPage } from './searchbar.page';
+import { PipesModule } from '../../pipes/pipes.module';
 
 @NgModule({
   imports: [
@@ -14,6 +15,7 @@ import { SearchbarPage } from './searchbar.page';
     FormsModule,
     IonicModule,
     SearchbarPageRoutingModule,
+    PipesModule
   ],
   declarations: [SearchbarPage]
 })

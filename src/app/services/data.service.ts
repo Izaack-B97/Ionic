@@ -17,11 +17,7 @@ export class DataService {
     return this.http.get<Componente[]>('/assets/data/menu.json');
   }
 
-  // getAlbums(){
-  //   this.http.get('https://jsonplaceholder.typicode.com/albums')
-  //     .subscribe(result => {
-  //       console.log(result);
-  //     });
-  //   return this.http.get('https://jsonplaceholder.typicode.com/albums');
-  // }
+  getAlbums(){
+    return this.http.get<any[]>('/assets/data/albums.json');
+  }
 }
