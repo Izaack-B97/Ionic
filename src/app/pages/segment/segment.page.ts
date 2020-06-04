@@ -16,7 +16,7 @@ export class SegmentPage implements OnInit {
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
-    this.superHeroes = this.dataService.getSuperHeroes();    
+    this.superHeroes = this.dataService.getSuperHeroes();
   }
 
   ionViewDidEnter(){
